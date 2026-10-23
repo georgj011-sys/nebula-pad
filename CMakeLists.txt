@@ -28,8 +28,8 @@ juce_add_plugin(NebulaPad
     VST3_CATEGORIES             Instrument Synth)
 
 target_sources(NebulaPad PRIVATE
-    Source/PluginProcessor.cpp
-    Source/PluginEditor.cpp
+  PluginProcessor.cpp
+    PluginEditor.cpp
     Source/WaveBank.cpp)
 
 target_compile_definitions(NebulaPad PUBLIC
