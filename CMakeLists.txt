@@ -30,7 +30,7 @@ juce_add_plugin(NebulaPad
 target_sources(NebulaPad PRIVATE
   PluginProcessor.cpp
     PluginEditor.cpp
-    Source/WaveBank.cpp)
+    WaveBank.cpp)
 
 target_compile_definitions(NebulaPad PUBLIC
     JUCE_WEB_BROWSER=0
